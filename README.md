@@ -18,6 +18,7 @@ Courses marked **Free** cost nothing. Prices change often, so check the course p
 - [Best system design courses for interviews](#best-system-design-courses-for-interviews)
 - [Best system design courses for beginners](#best-system-design-courses-for-beginners)
 - [Best free system design courses](#best-free-system-design-courses)
+- [Free system design videos](#free-system-design-videos)
 - [Best system design courses on Udemy](#best-system-design-courses-on-udemy)
 - [University and Coursera courses](#university-and-coursera-courses)
 - [Best courses for senior and staff engineers](#best-courses-for-senior-and-staff-engineers)
@@ -71,13 +72,14 @@ Find your goal in the first column. The second column is the strongest course fo
 
 ### 1. Grokking the System Design Interview
 
-[Grokking the System Design Interview](https://www.designgurus.io/course/grokking-the-system-design-interview?utm_source=github&utm_medium=repo&utm_campaign=best-system-design-courses&utm_content=best-system-design-courses-for-interviews) is the original system design interview course. Arslan Ahmad, a former FAANG engineering manager, created it, and the "Grokking" approach to interview preparation began with this course. It teaches one repeatable method for open-ended questions: clarify the requirements, estimate the scale, sketch the high-level design, then go deep on the hardest component and its trade-offs.
+[Grokking the System Design Interview](https://www.designgurus.io/course/grokking-the-system-design-interview?utm_source=github&utm_medium=repo&utm_campaign=best-system-design-courses&utm_content=best-system-design-courses-for-interviews) is the original system design interview course. Arslan Ahmad, a former FAANG engineering manager, created it, and the "Grokking" approach to interview preparation began with this course. It teaches a repeatable 7-step method for open-ended questions. The method starts with clarifying the requirements and estimating the scale, then moves to the high-level design and a deep dive on the hardest component and its trade-offs.
 
 The course then applies that method to the classic interview problems, including a URL shortener, Dropbox, Instagram, Twitter, YouTube, Uber, a web crawler, an API rate limiter, and Ticketmaster. Each problem has detailed diagrams, and most have a video walkthrough.
 
 - **Format:** Text, diagrams, video walkthroughs, and quizzes.
 - **Pricing:** One-time payment with lifetime access. The [annual plan](https://www.designgurus.io/pricing?utm_source=github&utm_medium=repo&utm_campaign=best-system-design-courses&utm_content=best-system-design-courses-for-interviews) includes every Design Gurus course.
 - **Best for:** Most candidates preparing for a system design round at a large technology company.
+- **Watch first:** [The official 7-step method video](https://www.youtube.com/watch?v=N3r-Z6_IGTM), and a full [URL shortener walkthrough](https://www.youtube.com/watch?v=_TsJizByBvE).
 - **Pair it with:** The free [Grokking System Design repo](https://github.com/design-gurus/grokking-system-design), which adds study plans, cheat sheets, and company-specific guides.
 
 ### 2. Advanced System Design Interview, Volume II
@@ -155,9 +157,39 @@ You can learn most of system design without paying. What free material usually l
 - [CMU 15-445: Database Systems](https://15445.courses.cs.cmu.edu/) **Free**: Andy Pavlo's course on how databases work inside.
 - [System Design Primer](https://github.com/donnemartin/system-design-primer) **Free**: the most-starred system design repository. It gives a broad overview, but it has no fixed study order.
 - [System Design 101](https://github.com/ByteByteGoHq/system-design-101) **Free**: ByteByteGo's diagrams, each explaining one concept visually.
+- [Design Gurus YouTube channel](https://www.youtube.com/@designgurus1173) **Free**: short videos on caching, sharding, Kafka, APIs, and full interview walkthroughs. See [free system design videos](#free-system-design-videos).
 - [Design Gurus free system design guides](https://www.designgurus.io/learn-system-design?utm_source=github&utm_medium=repo&utm_campaign=best-system-design-courses&utm_content=best-free-system-design-courses) **Free**: concept lessons and interview questions, each in plain language.
 
 See also [10 free resources to learn system design](https://www.designgurus.io/blog/free-system-design-resources?utm_source=github&utm_medium=repo&utm_campaign=best-system-design-courses&utm_content=best-free-system-design-courses).
+
+## Free system design videos
+
+The [Design Gurus YouTube channel](https://www.youtube.com/@designgurus1173) publishes short, free system design lessons. Start with these three.
+
+| [![Grokking the System Design Interview: The 7-Step Method](https://img.youtube.com/vi/N3r-Z6_IGTM/mqdefault.jpg)](https://www.youtube.com/watch?v=N3r-Z6_IGTM) | [![URL Shortener System Design](https://img.youtube.com/vi/_TsJizByBvE/mqdefault.jpg)](https://www.youtube.com/watch?v=_TsJizByBvE) | [![Designing Messenger](https://img.youtube.com/vi/Va6EgMV9-7k/mqdefault.jpg)](https://www.youtube.com/watch?v=Va6EgMV9-7k) |
+|:---:|:---:|:---:|
+| [The 7-step method for any system design question](https://www.youtube.com/watch?v=N3r-Z6_IGTM) | [URL shortener and Pastebin, designed step by step](https://www.youtube.com/watch?v=_TsJizByBvE) | [Designing a messenger like WhatsApp](https://www.youtube.com/watch?v=Va6EgMV9-7k) |
+
+**Building blocks**
+
+- [Why does a cache make your API faster?](https://www.youtube.com/watch?v=v_x2PGs8FRU)
+- [6 distributed caching pitfalls every software engineer should know](https://www.youtube.com/watch?v=W33QbFF2oPs)
+- [8 Redis patterns every system design interview candidate should know](https://www.youtube.com/watch?v=d1eBQyRXlr4)
+- [How database sharding works: 5 strategies for scaling to millions](https://www.youtube.com/watch?v=5OvOpa57G6w)
+- [Apache Kafka explained in 4 minutes](https://www.youtube.com/watch?v=d2C2G3YWP8U)
+- [Forward proxy vs reverse proxy](https://www.youtube.com/watch?v=3A34I1fG4BM)
+
+**APIs and communication**
+
+- [REST vs gRPC vs GraphQL, and which one to use](https://www.youtube.com/watch?v=y_ur1tUxlfQ)
+- [API architecture patterns: REST, GraphQL, gRPC, webhooks, and more](https://www.youtube.com/watch?v=nc7aTjT4LTE)
+- [How HTTPS works: TLS, certificates, and encryption](https://www.youtube.com/watch?v=Y192TRjqaLU)
+
+**Reliability and scale**
+
+- [10 system design failure modes every engineer should know](https://www.youtube.com/watch?v=XzNe5QPDMUk)
+- [Event-driven architecture: 4 patterns that prevent cascading failures](https://www.youtube.com/watch?v=p7tgsc4ym08)
+- [Why a vibe-coded app crashes at 10,000 users](https://www.youtube.com/watch?v=JKaaIMHFOP0)
 
 ## Best system design courses on Udemy
 
@@ -275,6 +307,7 @@ Do both, for different purposes. A course gives you an order and worked intervie
 - [Grokking AI System Design](https://github.com/design-gurus/grokking-ai-system-design): building blocks and questions for AI and LLM design rounds.
 - [Design Patterns](https://github.com/design-gurus/design-patterns): system design patterns and the classic object-oriented design patterns.
 - [Grokking the Coding Interview](https://github.com/design-gurus/grokking-coding-interview): the coding patterns behind most coding interview questions.
+- [Design Gurus on YouTube](https://www.youtube.com/@designgurus1173): free video lessons on system design and coding patterns.
 
 ## Contributing
 
