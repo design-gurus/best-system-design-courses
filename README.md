@@ -2,7 +2,7 @@
 
 > The best system design courses, compared by format, price, depth, and who each one is for. Interview courses, beginner courses, free courses, Udemy and Coursera options, and courses for senior engineers and AI system design rounds.
 
-[![GitHub stars](https://img.shields.io/github/stars/design-gurus/best-system-design-courses?style=social)](https://github.com/design-gurus/best-system-design-courses/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/design-gurus/best-system-design-courses?style=social)](https://github.com/design-gurus/best-system-design-courses)
 [![Last commit](https://img.shields.io/github/last-commit/design-gurus/best-system-design-courses)](https://github.com/design-gurus/best-system-design-courses/commits/main)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
